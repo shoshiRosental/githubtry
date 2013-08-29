@@ -1,0 +1,269 @@
+css3-container { direction: ltr !important }
+/*------reset------*/
+html
+{
+	direction: ltr;
+}
+body
+{
+	direction: ltr;
+	line-height: 1em;
+        width: 1024;
+}
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ul 
+{
+	list-style: none;
+}
+blockquote, q 
+{
+	quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after 
+{
+	content: '';
+	content: none;
+}
+ins 
+{
+	text-decoration: none;
+}
+del 
+{
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--------end-of-reset------------*/
+
+body{
+    font-family: Arial;
+}
+#main{
+    width: 990px;
+    margin: auto;
+}
+
+h1{
+    font-size: 48px;
+    margin-top: 123px;
+    color: #48535b;
+    text-transform: capitalize;
+}
+
+._headLine{
+    color: #61db44;
+}
+
+/*-------------for-menu---------*/
+#menu{
+    list-style-type: none;
+    margin: 31px 0px 0px 10px;
+    
+    z-index: 2;
+    position: relative;
+}
+li{
+    display: inline;
+    z-index: 2;
+    position: relative;
+}
+.tabs{
+    height: 67px;
+    width: 191px;
+    -webkit-box-shadow: 7px 7px 10px rgba(0,0,0,0.34);
+    -moz-box-shadow: 7px 7px 10px rgba(0,0,0,0.34);
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.34);
+    border-radius: 5px;
+    float: left;
+    margin-right:-47px;
+    color: ffffff;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    
+}
+#tab1{
+    background:linear-gradient(#6aee4a,#d6ff46);
+    -pie-background:linear-gradient(#6aee4a,#d6ff46);
+    behavior: url(PIE.htc);
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+#tab2{
+    background:linear-gradient(#0079cf,#00bacf);
+    -pie-background:linear-gradient(#0079cf,#00bacf);
+    behavior: url(PIE.htc);
+    transform: rotate(2.3deg);
+    -webkit-transform: rotate(2.3deg);
+    -moz-transform: rotate(2.3deg);
+    -ms-transform: rotate(2.3deg);
+    -o-transform: rotate(2.3deg);
+    margin-top: 4px;
+    margin-left: 12px;
+}
+#tab3{
+    margin-left: 47px;
+    background:linear-gradient(#ff00e0,#eb00e0);
+    -pie-background:linear-gradient(#ff00e0,#eb00e0);
+    behavior: url(PIE.htc);
+    transform: rotate(-2.6deg);
+    -webkit-transform: rotate(-2.6deg);
+    -moz-transform: rotate(-2.6deg);
+    -ms-transform: rotate(-2.6deg);
+    -o-transform: rotate(-2.6deg);
+    margin-top: -5px;
+}
+#tab4{
+    background:linear-gradient(#ffc008,#ffe108);
+    -pie-background:linear-gradient(#ffc008,#ffe108);
+    behavior: url(PIE.htc);
+    transform: rotate(3.8deg);
+    -webkit-transform: rotate(3.8deg);
+    -moz-transform: rotate(3.8deg);
+    -ms-transform: rotate(3.8deg);
+    -o-transform: rotate(3.8deg);
+    margin-top: -10px;
+}
+#tab5{
+    background:linear-gradient(#804099,#ac538f);
+    -pie-background:linear-gradient(#804099,#ac538f);
+    behavior: url(PIE.htc);
+    transform: rotate(4.7deg);
+    -webkit-transform: rotate(-4.7deg);
+    -moz-transform: rotate(-4.7deg);
+    -ms-transform: rotate(-4.7deg);
+    -o-transform: rotate(-4.7deg);
+    margin-top: 3px
+}
+#tab6{
+    background:linear-gradient(#ff7020,#ffaa09);
+    -pie-background:linear-gradient(#ff7020,#ffaa09);
+    behavior: url(PIE.htc);
+    transform: rotate(-6deg);
+     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.4917828430524098, M12=-0.15679269490148012, M21=0.15679269490148012, M22=1.4917828430524098, SizingMethod='auto expand')";
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    margin-top: -6px;
+}
+.tabs_text{
+    float: left;
+    text-align: center;
+    margin:20px 0 0 -100px;
+    transform:rotate(0deg);
+    z-index: 4;
+    position: relative;
+    color: #ffffff;
+    font-weight:bold;
+}
+#tabs_text5{
+    margin-left:-120px;
+}
+#tabs_text6{margin-left: -80px;}
+/*------------iner-main-----------------*/
+.iner_main{
+    border-color: #f6f6f6;
+    border-width: 7px;
+    border-style: solid;
+    height: 416px;
+    width: 976px;
+    background-color: #dedfe0;
+    float: left;
+    z-index: 3;
+    position: relative;
+    margin-top: -26PX;
+    border-radius: 18px;
+    -pie-border-radius:18px;
+    behavior: url(PIE.htc);
+    -webkit-box-shadow: 7px 7px 10px rgba(0,0,0,0.34);
+    -moz-box-shadow: 7px 7px 10px rgba(0,0,0,0.34);
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.34);
+    
+}
+div.icons{
+    position: absolute;
+    bottom: 17px;
+    width:33px;
+height:30px;
+    background:transparent url(SYMBOLS.png) no-repeat 4px 4px;
+}
+/*#face{
+    background-position:0 0;
+}
+#in{
+    background-position:0 6px;
+}*/
+#face{
+    position: absolute;
+    left: 32px;
+    /*background:url(SYMBOLS.png) 0 0  no-repeat;*/
+    /*position-ba*/
+}
+#in{
+    position: absolute;
+    left: 62px;
+    /*background:url(SYMBOLS.png) no-repeat 0 0  ;*/
+    /*background-position:0px 0px;*/
+}
+#t{
+    position: absolute;
+    left: 92px;
+    /*background:url(SYMBOLS.png) no-repeat 0 0  ;*/
+}
+/*--------------------footer-----------------------*/
+#ul_footer{
+    float: left;
+    margin:  12px 0px 0px 114px;
+}
+.li_footer{
+    font-size: 9px;
+    font-weight: bold;
+    color: #48535b;
+    float: right;
+    border-right-color: #48535b;
+    border-right-style: solid;
+    border-right-width: thin;
+    padding: 0px 8px 0px 8px;
+}
+#li_footer1{
+    border-right-width: 0px;
+}
+
+  a:hover :nth-child(1){
+    z-index: 5;
+    position: relative;
+    background: #000000;margin-top: -20px;
+    /*height: 80px;*/
+}
+ a:hover :nth-child(2){
+    z-index: 5;
+    position: relative;
+}
+/*a:active {
+    z-index: 2;
+    position: relative;
+    
+    }
+   */ 
+a{
+    text-decoration: none;
+    color: #48535b;
+}
